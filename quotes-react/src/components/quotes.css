@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+.QuotesAll{
+    text-align: center;
+    background-color: #E5E3C9;
+    color: #fff;
+    width: 60vh;
+    margin: 10rem auto;
+    padding: .5rem;
+    border-radius: .5rem;
+    font-family: 'Source Code Pro', monospace;
+}
+.Quote-Ch{
+    margin: 1.3rem;
+}
+.Author-Ch{
+    margin: 1.3rem;
+}
+
+/* iconos */
+.bi-icon{
+    display: flex;
+    width: 5vh;
+    height: 5vh;
+
+}
+#arrow{
+    display: flex;
+    margin: 1rem auto;
+    transition: 2s all;
+}
+#arrow:active{
+    transform: scale(-2);
+    
+}
